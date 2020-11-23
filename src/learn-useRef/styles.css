@@ -1,0 +1,50 @@
+.App {
+    width : 100%;
+    min-height: 100vh;
+    background: #3b375f;
+    display: flex;
+}
+h1{
+  margin: auto;
+}
+.counter {
+    margin: auto;
+    width: 340px;
+    height: 340px;
+    background: #221c23;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.counter h2{
+    font-size: 60px;
+    line-height: 1;
+    color: lightgreen;
+}
+.counter .btnContainer {
+    width: 94%;
+    padding: 30px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.counter .btnContainer button {
+    width: 120px;
+    border: none;
+    outline: none;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    transition: color 300ms ease-in-out;
+}
+.counter .btnContainer button:hover {
+    color: lightgreen;
+}
+.counter .btnContainer button:last-of-type {
+    margin: 16px 0 0 0;
+    width: 100%;
+}
